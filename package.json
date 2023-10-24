@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/KudesnikRaf/frontend-project-11/issues"
   },
-  "homepage": "https://github.com/KudesnikRaf/frontend-project-11#readme"
+  "homepage": "https://github.com/KudesnikRaf/frontend-project-11#readme",
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
 }
