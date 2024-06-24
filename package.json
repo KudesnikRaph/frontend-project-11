@@ -5,18 +5,32 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "webpack serve --config webpack.config.js",
-    "build": "webpack --config webpack.config.js",
-    "lint": "npx eslint ."
+    "start": "npx webpack serve",
+    "build": "NODE_ENV=production npx webpack",
+    "lint": "npx eslint .",
+    "lint-fix": "npx eslint --fix ."
   },
   "author": "KudesnikRaph",
   "license": "ISC",
   "devDependencies": {
+    "babel-loader": "^9.1.3",
     "bootstrap": "^5.3.3",
+    "css-loader": "^7.1.2",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.29.1",
     "html-webpack-plugin": "^5.6.0",
+    "postcss-loader": "^8.1.1",
+    "prettier": "^3.3.2",
+    "sass": "^1.77.6",
+    "sass-loader": "^14.2.1",
+    "style-loader": "^4.0.0",
     "webpack": "^5.92.1",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4",
+    "workbox-webpack-plugin": "^7.1.0",
+    "yup": "^1.4.0"
+  },
+  "dependencies": {
+    "on-change": "^5.0.1"
   }
 }
