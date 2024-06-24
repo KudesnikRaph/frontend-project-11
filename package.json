@@ -5,10 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "npx webpack serve",
-    "build": "NODE_ENV=production npx webpack",
-    "lint": "npx eslint .",
-    "lint-fix": "npx eslint --fix ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "KudesnikRaph",
   "license": "ISC",
