@@ -4,12 +4,12 @@
   "description": "[![Actions Status](https://github.com/KudesnikRaph/frontend-project-11/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/KudesnikRaph/frontend-project-11/actions)",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "author": "KudesnikRaph",
   "license": "ISC",
   "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "@types/node": "^20.14.8",
     "axios": "^1.7.2",
     "babel-loader": "^9.1.3",
     "bootstrap": "^5.3.3",
