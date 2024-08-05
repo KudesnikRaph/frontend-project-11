@@ -17,13 +17,13 @@ export default (data) => {
 
   const itemElements = dom.querySelectorAll('item');
   const items = [...itemElements].map((el) => {
-    const titleElement = el.querySelector('title');
-    const isTitle = titleElement.textContent;
-    const linkElement = el.querySelector('link');
-    const isLink = linkElement.textContent;
-    const descriptionElement = el.querySelector('description');
-    const isDescription = descriptionElement.textContent;
+    const itemTitleElement = el.querySelector('title');
+    const isTitle = itemTitleElement.textContent;
+    const itemLinkElement = el.querySelector('link');
+    const isLink = itemLinkElement.textContent;
+    const itemDescriptionElement = el.querySelector('description');
+    const isDescription = itemDescriptionElement.textContent;
     return { title: isTitle, link: isLink, description: isDescription };
   });
-  return { title: channelTitle, descrpition: channelDescription, items };
+  return { title: channelTitle, description: channelDescription, items };
 };
