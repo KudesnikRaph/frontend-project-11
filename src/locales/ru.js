@@ -1,20 +1,18 @@
 export default {
   translation: {
-    rssAdded: 'RSS успешно загружен',
-    errors: {
-      rssAlredyWas: 'RSS уже существует',
-      networkError: 'Ошибка сети', // https://feeds.washingtonpost.com/rss/world, http://lenta.ru/l/r/ex/import.rss
-      invalidRss: 'Ресурс не содержит валидный RSS', // https://news.yandex.ru/daily.rss , http://www.dp.ru/exportnews.xml
-      invalidUrl: 'Ссылка должна быть валидным URL',
+    feeds: 'Фиды',
+    posts: 'Посты',
+    view: 'Просмотр',
+    loading: {
+      success: 'RSS успешно загружен',
     },
-    feedHead: 'Фиды',
-    postHead: 'Посты',
-    viewButton: 'Просмотр',
+    errors: {
+      exists: 'RSS уже существует',
+      empty: 'Не должно быть пустым',
+      notUrl: 'Ссылка должна быть валидным URL',
+      noRSS: 'Ресурс не содержит валидный RSS',
+      network: 'Ошибка сети',
+      unknown: 'Неизвестная ошибка',
+    },
   },
 };
-
-// https://aljazeera.com/xml/rss/all.xml
-//
-// https://buzzfeed.com/world.xml
-//
-// https://thecipherbrief.com/feed
